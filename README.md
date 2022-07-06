@@ -16,3 +16,6 @@ The program will run and the outputted format is as follow:
     }
   ]
  }
+
+### Note
+If for some reason the application is not launching, the original application file can be found in program_files -> dist -> ignition-excel-to-json
