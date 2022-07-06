@@ -1,5 +1,6 @@
 '''
 Created by Andy Czeropski
+This program converts an excel file to JSON that is digestable to Ignition
 '''
 
 import csv
@@ -16,13 +17,10 @@ def main():
 
     :input: .xlsx/csv filepath
     :input: .json filepath
-    :outputL converted .json file
+    :output: converted .json file
     '''
 
     sg.theme('Reddit')
-
-    jsonChoices = ['records', 'split', 'index', 'table', 'None']
-
     layoutSize = (320, 170)
 
     layout = [[sg.Text('Enter .csv or .xlsx file to convert to json')],
