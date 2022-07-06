@@ -1,6 +1,8 @@
 # ignition-excel-to-json
 Convert excel files to JSON - formatted to be digested by Ignition
 
+![Ignition excel to json GUI image](./imgs/GUI_img.png "Program GUI")
+
 ## How to Use
 Simply clink the shortcut (.lnk) to start the program.
 You will need to browse for and select the .xlsx or .csv file you wish to convert to JSON.
